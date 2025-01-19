@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Rohit Sonker's Personal Page/ "
+title                    : "Rohit Sonker's Personal Page"
 title_separator          : "-"
 name                     : &name "Rohit Sonker"
 description              : &description "personal description"
