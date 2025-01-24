@@ -1,6 +1,11 @@
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+---
+permalink: /
+title: "Publications"
+author_profile: true
+redirect_from: 
+  - /publications/
+  - /publications.html
+---
 
 * R Sonker, A Capone, A Rothstein, H Kaga, E Kolemen, J Schneider “DynaBO – Dynamics Model Bayesian Optimization for Tokamak Control” (Under Submission) 
 * Andy Rothstein, Hiro Farre, Rohit Sonker, SangKyeun Kim, Azarakhsh Jalalvand, Jeff Schneider, Egemen Kolemen ["Preemptive tearing mode suppression using real-time ECH steering machine learning stability predictions on DIII-D"]("https://meetings.aps.org/Meeting/DPP24/Session/PP12.39"), Bulletin of the American Physical Society, 2024
