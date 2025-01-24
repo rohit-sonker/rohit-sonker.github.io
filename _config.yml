@@ -21,7 +21,7 @@ repository               : "rohit-sonker"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo.jpg" #"rsonker_headshot.png" #"profile.png"
+  avatar           : "rsonker_headshot.png" #"" #"profile.png"
   name             : "Rohit Sonker"
   pronouns         : # example: "she/her"  
   bio              : "ML/Robotics Carnegie Mellon University"
