@@ -36,7 +36,7 @@ Kalman updates to account uncertainty in data, and latent variables to dynamical
 ## Terrain Height to Dynamics Learning 
 Worked on adding terrain height to learning dynamics models of a robot moving over various terrain conditions. Using this model, we also built a Model Predictive Controller (MPC) for trajectory tracking. 
  - R. Sonker and A. Dutta, ["Adding Terrain Height to Improve Model Learning for Path Tracking on Uneven Terrain by a Four Wheel Robot"]("https://ieeexplore.ieee.org/document/9265417") in IEEE Robotics and Automation Letters, Jan. 2021
- - ["Github"]("https://github.com/rohit-sonker/Path-Tracking-via-Model-based-Learning")
+ - [Code]("https://github.com/rohit-sonker/Path-Tracking-via-Model-based-Learning")
 
 
 <!-- ### Past Projects
