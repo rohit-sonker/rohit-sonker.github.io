@@ -6,6 +6,8 @@ redirect_from:
   - /publications.html
 ---
 
+[Google Scholar]("https://scholar.google.com/citations?hl=en&user=6WX4uesAAAAJ")
+
 * R Sonker, A Capone, A Rothstein, H Kaga, E Kolemen, J Schneider “DynaBO – Dynamics Model Bayesian Optimization for Tokamak Control” (Under Submission) 
 * Andy Rothstein, Hiro Farre, Rohit Sonker, SangKyeun Kim, Azarakhsh Jalalvand, Jeff Schneider, Egemen Kolemen ["Preemptive tearing mode suppression using real-time ECH steering machine learning stability predictions on DIII-D"]("https://meetings.aps.org/Meeting/DPP24/Session/PP12.39"), Bulletin of the American Physical Society, 2024
 * Vaisakh Shaj, Dieter Büchler, Rohit Sonker, Philipp Becker, Gerhard Neumann [“Hidden Parameter Recurrent State Space Models For Changing Dynamics Scenarios”]("https://openreview.net/pdf?id=ds8yZOUsea"), International Conference for Learning Representations (ICLR) , 2022
