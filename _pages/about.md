@@ -13,7 +13,7 @@ Prior to this I have ~5 years of experience in industry. I led the Data science 
 Before that, at PwC, I led several projects on the development of AI based intelligent clinical trial design leveraging predictive models, simulations and LLMs.
 
 Research Projects
----
+--
 
 ## AI for Nuclear Fusion
 
@@ -28,7 +28,7 @@ Designed pipeline for distributed training and hyperparameter tuning of Reinforc
 ### Multi-Modal Foundational Models for Nuclear Fusion -
 I am actively working on multi-modal state transition model which combines text logs from DIII-D experiments with trajectory data to enhance model performance and enable language conditioned data generation.
 
-## Adaptive Models for dynamics learning
+## Adaptive Models for Dynamics Learning in Changing Scenarios
 Worked on latent parameter recurrent state space models for learning dynamics (state-transistion probability functions) for various robotics tasks. These models used
 Kalman updates to account uncertainty in data, and latent variables to dynamically adapt to different regions of the environment. Some examples include - robot moving over varying terrain and manipulator picking different loads. Models achieved state of the art results in robotics tasks. 
  - Vaisakh Shaj, Dieter Büchler, Rohit Sonker, Philipp Becker, Gerhard Neumann [“Hidden Parameter Recurrent State Space Models For Changing Dynamics Scenarios”]("https://openreview.net/pdf?id=ds8yZOUsea"), International Conference for Learning Representations (ICLR) , 2022
@@ -36,7 +36,7 @@ Kalman updates to account uncertainty in data, and latent variables to dynamical
 ## Terrain Height to Dynamics Learning 
 Worked on adding terrain height to learning dynamics models of a robot moving over various terrain conditions. Using this model, we also built a Model Predictive Controller (MPC) for trajectory tracking. 
  - R. Sonker and A. Dutta, ["Adding Terrain Height to Improve Model Learning for Path Tracking on Uneven Terrain by a Four Wheel Robot"]("https://ieeexplore.ieee.org/document/9265417") in IEEE Robotics and Automation Letters, Jan. 2021
-
+ - ["Github"]("https://github.com/rohit-sonker/Path-Tracking-via-Model-based-Learning")
 
 
 <!-- ### Past Projects
