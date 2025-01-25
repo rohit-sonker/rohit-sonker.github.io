@@ -6,11 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I’m Rohit Sonker, a researcher at Auton Lab at Carnegie Mellon University advised by Prof. Jeff Schneider.
+I’m Rohit Sonker, a researcher at Auton Lab at Carnegie Mellon University advised by [Prof. Jeff Schneider]("https://www.cs.cmu.edu/~schneide/").
 I am broadly interesed in developing AI algorithms for applications in real world domains. Currently, I work on Offline Reinforcement Learning, Optimal Experiment design with Bayesian Optimization, and multi-modal foundational models combining text and time-series data, with application to the field of Nuclear Fusion.
 
 Prior to this I have ~5 years of experience in industry. I led the Data science and Machine learning team at CS DISCO India Office working on Machine learning and Large Language Model applications to help attorneys in E-discovery, document review and building cases. 
 Before that, at PwC, I led several projects on the development of AI based intelligent clinical trial design leveraging predictive models, simulations and LLMs.
+
+I graduated with a combined bachelors and masters from IIT Kanpur, where I worked on offroad driving in varying terrain conditions with [Prof. Ashish Dutta]("https://home.iitk.ac.in/~adutta/")
 
 Research Projects
 --
