@@ -6,6 +6,7 @@ redirect_from:
   - /publications.html
 ---
 
+
 [Google Scholar]("https://scholar.google.com/citations?hl=en&user=6WX4uesAAAAJ")
 
 * R Sonker, A Capone, A Rothstein, H Kaga, E Kolemen, J Schneider “DynaBO – Dynamics Model Bayesian Optimization for Tokamak Control” (Under Submission) 
