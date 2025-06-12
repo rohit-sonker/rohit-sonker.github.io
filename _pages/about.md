@@ -20,15 +20,17 @@ Research Projects
 ## AI for Nuclear Fusion
 
 ### Bayesian Optimization for Experiment Design - 
-Worked on developing a multi-scale bayesian optimization algorithm to achieve different goals pertaining to plasma control in nuclear fusion. Our algorithm has been tested at DIII-D tokamak facility in San Diego to mitigate tearing mode instabilities and also at K-STAR tokamak in South Korea for betaN (normalized plasma pressure) maximization. Paper currently under submission.
+Worked on developing a multi-scale bayesian optimization algorithm to achieve different goals pertaining to plasma control in nuclear fusion. Our algorithm has been tested at DIII-D tokamak facility in San Diego to mitigate tearing mode instabilities and also at K-STAR tokamak in South Korea for betaN (normalized plasma pressure) maximization. I will be presenting this at ICML 2025. If you are visiting and would like to chat please reach out !
 
-
-### Reinforcement Learning - 
-Designed pipeline for distributed training and hyperparameter tuning of Reinforcement Learning agents for closed loop control of fusion tokamak actuators. I work on developing controllers for plasma profile tracking (eg. Density, Rotation, Differential Rotation)
+ - Rohit Sonker<sup>\*</sup>, Alexandre Capone<sup>\*</sup>, Andrew Rothstein, Hiro Farre, Egemen Kolemen, Jeff Schneider ["Multi-Timescale Dynamics Model Bayesian Optimization for Plasma Stabilization in Tokamaks"](https://openreview.net/attachment?id=d7v7RVXbNH&name=pdf), International Conference of Machine Learning (ICML), 2025
 
 
 ### Multi-Modal Foundational Models for Nuclear Fusion -
-I am actively working on multi-modal state transition model which combines text logs from DIII-D experiments with trajectory data to enhance model performance and enable language conditioned data generation.
+I am actively working on multi-modal state transition model which combines text and trajectory/timeseries data. Our goal is to allow text conditioned timeseries generation and timeseries conditioned text generation. 
+
+### Reinforcement Learning - 
+Designed pipeline for distributed training and hyperparameter tuning of Reinforcement Learning agents for closed loop control of fusion tokamak actuators. I work on developing controllers for plasma profile tracking (eg. Density, Rotation, Differential Rotation). We recently ran this algorithm on DIII-D facility, results and full paper currently under submission!
+
 
 ## Adaptive Models for Dynamics Learning in Changing Scenarios
 Worked on latent parameter recurrent state space models for learning dynamics (state-transistion probability functions) for various robotics tasks. These models used
