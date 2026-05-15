@@ -12,7 +12,7 @@ title                    : "Rohit Sonker - Personal Website" # the title of your
 subtitle                 : "ML/Robotics Carnegie Mellon University" # the subtitle of your site
 title_separator          : "-"
 name                     : &name "Rohit Sonker"
-description              : &description "personal description"
+description              : &description "Rohit Sonker is a Robotics PhD student at CMU's Auton Lab working on reinforcement learning, Bayesian optimization, and LLMs for scientific decision-making and nuclear fusion plasma control."
 url                      : https://rohit-sonker.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rohit-sonker"
@@ -123,7 +123,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : Aor5G12lgcRgOAeonkoBZzvnQv7bNu--x5hgHrt2NdM
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -136,13 +136,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "rsonker_lowsize.png"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Rohit Sonker
+  links:
+    - "https://www.linkedin.com/in/rohit-sonker-755a19142"
+    - "https://scholar.google.com/citations?hl=en&user=6WX4uesAAAAJ"
+    - "https://github.com/rohit-sonker"
 
 
 # Analytics
