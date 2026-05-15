@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About me"
+description: "Rohit Sonker is a Robotics PhD student at CMU's Auton Lab researching reinforcement learning, Bayesian optimization, and LLMs for scientific decision-making and nuclear fusion plasma control."
 author_profile: true
 redirect_from: 
   - /about/
