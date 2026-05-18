@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am Rohit Sonker, a Robotics Ph.D. student at the Auton Lab, Carnegie Mellon University, advised by [Prof. Jeff Schneider](https://www.cs.cmu.edu/~schneide/).
 
-My research focuses on decision-making algorithms for scientific and physical systems. I am particularly interested in reinforcement learning, Bayesian optimization, and the use of large language models as domain-informed priors for scientific decision-making. My recent work has focused on offline reinforcement learning for tokamak plasma control, Bayesian optimization for nuclear fusion experiments, and LLM-assisted experimental design.
+My research focuses on how we can create decision-making agents for scientific and physical systems. I am broadly interested in decision making algorithms (Reinforcement Learning and Bayesian optimization) and how Large Language Models (LLMs) can be used to improve decision making (agents/domain informed priors/taking in high dimensional feedback). My recent work has focused on offline RL and adaptive RL for tokamak plasma control, Bayesian optimization for nuclear fusion experiments, and LLM-assisted experimental design.
 
 Prior to my Ph.D., I spent about five years in industry. I led the Data Science and Machine Learning team at CS DISCO India, where I worked on machine learning and large language model applications for e-discovery, document review, and legal case development. Before that, at PwC, I led projects on AI-based clinical trial design using predictive models, simulations, and large language models.
 
