@@ -1,13 +1,13 @@
-# Ignore the contents of the _site directory and other cache directories
-_site/
-.sass-cache/
+# macOS folder metadata
+.DS_Store
 
-# Ignore the directory for local files during development
-local/
+# Local tool settings (not part of the website)
+.claude/
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ingore files created by npm
-node_modules
-package-lock.json
+# Stray personal files: only images/ and files/ should hold media.
+# Add new images or PDFs inside those folders on purpose.
+/*.png
+/*.jpg
+/*.jpeg
+/*.heic
+/*.pdf

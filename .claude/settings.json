@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git -C /Users/rohit/Developer/rohit-sonker.github.io log --oneline -20)"
-    ]
-  }
-}

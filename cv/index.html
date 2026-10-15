@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV | Rohit Sonker</title>
+  <meta name="description" content="CV of Rohit Sonker, Robotics PhD candidate at Carnegie Mellon University: education, research, industry experience, publications, and skills.">
+  <link rel="canonical" href="https://rohit-sonker.github.io/cv/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script>try { if (localStorage.getItem('theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="icons">
+      <a href="mailto:rsonker@andrew.cmu.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=6WX4uesAAAAJ" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+      <a href="https://github.com/rohit-sonker" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rohit-sonker-755a19142" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <nav>
+      <a href="/#about">About</a>
+      <a href="/#news">News</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#experience">Experience</a>
+      <a href="/cv/" class="active">CV</a>
+      <button class="toggle" id="toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="cv-head">
+    <h1>CV</h1>
+    <a class="download" href="/files/RohitSonker_CV.pdf"><i class="fa-solid fa-file-arrow-down"></i> Download PDF</a>
+  </div>
+  <p class="subtitle">Rohit Sonker · Pittsburgh, PA · rsonker [at] andrew.cmu.edu</p>
+
+  <section>
+    <h2>summary</h2>
+    <p>Robotics Ph.D. candidate at CMU working on decision-making agents, LLM-based experimental design, reinforcement learning, and multimodal learning. First-author work at ICML, L4DC, and NeurIPS, with algorithms validated in hard real-world settings such as nuclear fusion tokamaks. Before the Ph.D., 4+ years shipping production LLM and ML systems, including RAG pipelines, agents, and cloud ML platforms, to enterprise customers in life sciences and legal tech.</p>
+  </section>
+
+  <section>
+    <h2>education</h2>
+    <div class="exp">
+      <div class="when">Jan 2024 – Aug 2027 (expected)</div>
+      <div><div class="title">Carnegie Mellon University · Ph.D. in Robotics</div><div class="where">Auton Lab · Advisor: Prof. Jeff Schneider · GPA 4.0/4.0</div></div>
+    </div>
+    <div class="exp">
+      <div class="when">Jul 2014 – Jun 2019</div>
+      <div><div class="title">IIT Kanpur · Dual Degree (B.Tech and M.Tech), Mechanical Engineering</div><div class="where">GPA 9.3/10</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>research experience</h2>
+    <div class="exp">
+      <div class="when">Jan 2024 – present</div>
+      <div>
+        <div class="title">Graduate Research Assistant · Auton Lab, Carnegie Mellon University</div>
+        <div class="where">Pittsburgh, PA</div>
+        <ul>
+          <li>Multi-timescale Bayesian optimization for sequential decisions under sparse data and expensive evaluations. Deployed at the DIII-D National Fusion Facility, improving instability avoidance by 117% (ICML 2025).</li>
+          <li>Adaptive offline RL trained with a learned fusion world model. Policies conditioned on a latent context adapt to shifts in plasma dynamics, validated in experiments on DIII-D (L4DC 2026, NeurIPS 2026).</li>
+          <li>LLM-guided Bayesian optimization that draws domain priors from LLMs and folds natural-language feedback into parameter selection, improving convergence in scientific experimental design (NeurIPS 2025 ML4PS).</li>
+          <li>An RL environment and benchmark for offline RL on nuclear fusion control tasks (NeurIPS 2026).</li>
+          <li>A multimodal language and time-series model with a Q-Former adapter and LoRA fine-tuning, for cross-modal reasoning and question answering on small scientific datasets.</li>
+          <li>DDPM diffusion models for text-conditioned image generation, comparing UNet and transformer backbones on scaling, data efficiency, and sample quality.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp">
+      <div class="when">Jul 2021 – Dec 2021</div>
+      <div>
+        <div class="title">Visiting Researcher · Karlsruhe Institute of Technology</div>
+        <div class="where">Advisor: Prof. Gerhard Neumann · Remote</div>
+        <ul>
+          <li>Latent-context recurrent state-space models that infer unobserved context on the fly when dynamics change, outperforming meta-learning baselines (ICLR 2022).</li>
+          <li>Validated by learning inverse dynamics for a Franka Emika Panda manipulator and a pneumatically actuated muscle robot.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp">
+      <div class="when">Jul 2018 – Jun 2019</div>
+      <div>
+        <div class="title">Master's Thesis · IIT Kanpur</div>
+        <div class="where">Advisor: Prof. Ashish Dutta · Kanpur, India</div>
+        <ul>
+          <li>Combined model learning with model predictive control for path tracking by a four-wheel mobile robot, adding terrain-height context to generalize to unseen terrain (IEEE RA-L 2021).</li>
+          <li>Ablations over planning horizon, controller frequency, and cross-entropy-method action sampling to find the sources of tracking improvement.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>industry experience</h2>
+    <div class="exp">
+      <div class="when">Jun 2026 – Aug 2026</div>
+      <div>
+        <div class="title">Applied Sciences Intern · Microsoft, Office AI</div>
+        <div class="where">Redmond, WA</div>
+        <ul>
+          <li>An advantage-gated on-policy distillation algorithm for selectively distilling agentic skills from multiple teachers, learning new skills while keeping performance on ones already learned.</li>
+          <li>An RL-ready gym environment for the Outlook agent, with containerized mailbox execution for parallel rollouts across cluster nodes.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp">
+      <div class="when">Aug 2023 – Jan 2024</div>
+      <div>
+        <div class="title">Tech Lead Manager, Machine Learning · CS DISCO</div>
+        <div class="where">Legal technology · Gurgaon, India</div>
+        <ul>
+          <li>Led the India data science team (3 direct reports) designing LLM agents for conversational search, summarization, and document tagging over legal discovery data. Shipped the features that landed DISCO's first paid AI customers.</li>
+          <li>Upgraded a RAG retrieval chatbot with conversational memory and pronoun coreference resolution for long, multi-turn retrieval, gaining 18% in accuracy and task completion.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp">
+      <div class="when">Jul 2019 – Jul 2023</div>
+      <div>
+        <div class="title">Senior Data Scientist · PwC US Advisory</div>
+        <div class="where">Pharma and Life Sciences · Mumbai, India</div>
+        <ul>
+          <li>Led an LLM system that generates regulatory-compliant clinical trial documents from tabular trial parameters. Benchmarked GPT-3.5 prompting against fine-tuned T5, BERT, and GPT models and deployed into client infrastructure, securing $2M+ in engagements.</li>
+          <li>Architected the healthcare practice's AWS ML platform (serverless ETL, SageMaker, EC2 deployment, third-party integrations), unifying 10+ projects and data sources and training 50+ team members.</li>
+          <li>Built a clinical trial design system combining predictive models, simulation, and LLM agents, adopted across several large pharma clients for $0.5M+ in revenue.</li>
+          <li>Productionized an unsupervised NLP entity-matching pipeline on AWS for batch and on-demand inference, with a model-drift monitoring framework.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>publications</h2>
+    <ol class="cvpubs">
+      <li><b>R. Sonker</b>, X. Hu, H. Farre, A. Rothstein, J. Chen, E. Kolemen, J. Schneider. Dynamics-Informed Adaptive Offline RL for Real-Time Tokamak Plasma Control. <span class="venue">NeurIPS 2026.</span></li>
+      <li>E. F. Karagözlü*, <b>R. Sonker</b>*, T. Gupta, B. Póczos, J. Schneider. <a href="https://arxiv.org/abs/2609.19437">Bayesian Optimization with Rich Auxiliary Information via LLMs.</a> <span class="venue">arXiv 2026.</span></li>
+      <li>Y. Fu*, H. Bao*, <b>R. Sonker</b>, X. Hu, A. Venugopal, J. Schneider, J. Chen. <a href="https://yywoai66.github.io/RL4F/">Offline Reinforcement Learning for Plasma Control in Nuclear Fusion: Codebase and Benchmark.</a> <span class="venue">NeurIPS 2026.</span></li>
+      <li><b>R. Sonker</b>, H. Farre, J. Chen, A. Rothstein, I. Char, R. Shousha, E. Kolemen, J. Schneider. <a href="https://arxiv.org/abs/2605.05857">Offline Reinforcement Learning for Rotation Profile Control in Tokamaks.</a> <span class="venue">L4DC 2026.</span></li>
+      <li>T. Gupta, <b>R. Sonker</b>, E. M. Karagözlü, B. Póczos, J. Schneider. <a href="https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_268.pdf">Large Language Model-based Bayesian Optimization for Tokamak Stabilization.</a> <span class="venue">NeurIPS 2025 Workshop on Machine Learning and the Physical Sciences.</span></li>
+      <li><b>R. Sonker</b>*, A. Capone*, A. Rothstein, H. Farre, E. Kolemen, J. Schneider. <a href="https://openreview.net/attachment?id=d7v7RVXbNH&name=pdf">Multi-Timescale Dynamics Model Bayesian Optimization for Plasma Stabilization in Tokamaks.</a> <span class="venue">ICML 2025.</span></li>
+      <li>A. Rothstein, H. Farre, <b>R. Sonker</b>, S. K. Kim, A. Jalalvand, J. Schneider, E. Kolemen. <a href="https://meetings.aps.org/Meeting/DPP24/Session/PP12.39">Preemptive Tearing Mode Suppression using Real-Time ECH Steering Machine Learning Stability Predictions on DIII-D.</a> <span class="venue">Bulletin of the American Physical Society, 2024.</span></li>
+      <li>V. Shaj, D. Büchler, <b>R. Sonker</b>, P. Becker, G. Neumann. <a href="https://openreview.net/pdf?id=ds8yZOUsea">Hidden Parameter Recurrent State Space Models for Changing Dynamics Scenarios.</a> <span class="venue">ICLR 2022.</span></li>
+      <li><b>R. Sonker</b>, A. Dutta. <a href="https://ieeexplore.ieee.org/document/9265417">Adding Terrain Height to Improve Model Learning for Path Tracking on Uneven Terrain by a Four-Wheel Robot.</a> <span class="venue">IEEE RA-L 2021.</span></li>
+      <li><b>R. Sonker</b>, A. Mishra, P. Bansal, A. Pattnaik. <a href="https://ceur-ws.org/Vol-2696/paper_71.pdf">Techniques for Medical Concept Identification from Multi-Modal Images.</a> <span class="venue">CLEF 2020 (Oral).</span></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>talks and honors</h2>
+    <ul class="cvpubs">
+      <li><b>Oral talk</b>, "Dynamics Model Bayesian Optimization for Experimental Design in Tokamaks," APS Division of Plasma Physics (APS-DPP), 2025.</li>
+      <li><b>2nd place worldwide</b>, ImageCLEF 2020 medical concept detection challenge (multi-label prediction over radiographic images). Results presented at CLEF 2020.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>skills</h2>
+    <dl class="skills">
+      <dt>Languages</dt><dd>Python, C/C++, SQL, R, MATLAB, Spark</dd>
+      <dt>ML and AI</dt><dd>PyTorch, scikit-learn, NumPy; offline and model-based RL, Bayesian optimization and Gaussian processes, diffusion models, LLM post-training (SFT, RLHF, distillation, LoRA/PEFT), multimodal models, RAG, LangChain, FAISS, Pinecone</dd>
+      <dt>ML infrastructure</dt><dd>AWS (SageMaker, Step Functions, Lambda, S3, RDS, EC2), Azure, Docker, Kubernetes, MLflow, DVC, CI/CD</dd>
+      <dt>Simulation</dt><dd>ROS, MuJoCo, PyBullet</dd>
+      <dt>Analytics</dt><dd>Pandas, Tableau, Power BI, Streamlit, R Shiny</dd>
+    </dl>
+  </section>
+</main>
+
+<footer><div>© 2026 Rohit Sonker</div></footer>
+
+<script src="/main.js"></script>
+</body>
+</html>

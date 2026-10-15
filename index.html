@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rohit Sonker | AI for Science and Robotics, Carnegie Mellon University</title>
+  <meta name="description" content="Rohit Sonker is a Robotics PhD candidate at Carnegie Mellon University's Auton Lab building AI agents for science and robotics, using reinforcement learning, Bayesian optimization, and large language models, validated on real systems such as nuclear fusion reactors.">
+  <meta name="google-site-verification" content="Aor5G12lgcRgOAeonkoBZzvnQv7bNu--x5hgHrt2NdM">
+  <link rel="canonical" href="https://rohit-sonker.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Rohit Sonker">
+  <meta property="og:description" content="Robotics PhD candidate at CMU building AI agents for science and robotics.">
+  <meta property="og:url" content="https://rohit-sonker.github.io/">
+  <meta property="og:image" content="https://rohit-sonker.github.io/images/rsonker.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script>try { if (localStorage.getItem('theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rohit Sonker",
+    "url": "https://rohit-sonker.github.io/",
+    "image": "https://rohit-sonker.github.io/images/rsonker.jpg",
+    "jobTitle": "Robotics PhD Candidate",
+    "affiliation": { "@type": "Organization", "name": "Carnegie Mellon University" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Carnegie Mellon University" },
+      { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Kanpur" }
+    ],
+    "knowsAbout": ["Reinforcement learning", "Bayesian optimization", "Large language models", "AI for science", "Robot learning"],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=6WX4uesAAAAJ",
+      "https://github.com/rohit-sonker",
+      "https://www.linkedin.com/in/rohit-sonker-755a19142"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="icons">
+      <a href="mailto:rsonker@andrew.cmu.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=6WX4uesAAAAJ" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+      <a href="https://github.com/rohit-sonker" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rohit-sonker-755a19142" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="/cv/">CV</a>
+      <button class="toggle" id="toggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <h1><b>Rohit</b> Sonker</h1>
+    <p class="subtitle">Robotics Ph.D. candidate · Auton Lab, Carnegie Mellon University</p>
+
+    <div class="profile">
+      <img src="/images/rsonker.jpg" alt="Rohit Sonker">
+    </div>
+
+    <p>I am a Robotics Ph.D. candidate at the <a href="https://autonlab.org">Auton Lab</a>, Carnegie Mellon University, advised by <a href="https://www.cs.cmu.edu/~schneide/">Prof. Jeff Schneider</a>.</p>
+
+    <p>I build AI agents that make decisions in the physical world: designing experiments, controlling robots and machines, and learning from data that is scarce and expensive to collect. My work brings together reinforcement learning, Bayesian optimization, and large language models, with a focus on methods that hold up outside simulation.</p>
+
+    <p>I test these ideas on one of the hardest control problems in science: <b>shaping plasma inside a nuclear fusion reactor</b>. Every experiment is costly, simulators are inaccurate, and the dynamics shift from one run to the next. Methods from my work have run live on the DIII-D tokamak in San Diego.</p>
+
+    <ul class="themes">
+      <li><b>AI for scientific discovery.</b> LLM-guided Bayesian optimization that reads expert notes, experiment logs, and domain knowledge to design better experiments with fewer trials.
+        <span class="papers"><a href="https://arxiv.org/abs/2609.19437">AuxBO</a> (arXiv 2026)<span class="sep">·</span><a href="https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_268.pdf">LLM-based BO</a> (NeurIPS WS 2025)<span class="sep">·</span><a href="https://openreview.net/attachment?id=d7v7RVXbNH&name=pdf">Multi-Timescale BO</a> (ICML 2025)</span></li>
+      <li><b>Reinforcement learning for real systems.</b> Offline and adaptive RL with learned world models: train from historical data, adapt when the dynamics change, and deploy on real hardware.
+        <span class="papers">Adaptive Offline RL (NeurIPS 2026)<span class="sep">·</span><a href="https://yywoai66.github.io/RL4F/">RL4F Benchmark</a> (NeurIPS 2026)<span class="sep">·</span><a href="https://arxiv.org/abs/2605.05857">Offline RL for Rotation Control</a> (L4DC 2026)</span></li>
+      <li><b>Robot learning.</b> Dynamics models that infer hidden context on the fly, for robot arms handling changing loads and mobile robots crossing unseen terrain.
+        <span class="papers"><a href="https://openreview.net/pdf?id=ds8yZOUsea">HiP-RSSM</a> (ICLR 2022)<span class="sep">·</span><a href="https://ieeexplore.ieee.org/document/9265417">Terrain-Aware Dynamics</a> (RA-L 2021)</span></li>
+      <li><b>Multimodal and agentic models.</b> Language and time-series models for reasoning over scientific data, and post-training LLM agents with reinforcement learning and on-policy distillation.</li>
+    </ul>
+
+    <p><b>Previously,</b> I spent over four years shipping production ML and LLM systems. I led the India machine learning team at CS DISCO, building LLM agents for legal discovery, and built clinical trial design and document generation systems for pharma clients at PwC. I hold a dual degree (B.Tech and M.Tech) in Mechanical Engineering from IIT Kanpur, where I worked on robot navigation with <a href="https://home.iitk.ac.in/~adutta/">Prof. Ashish Dutta</a>.</p>
+  </section>
+
+  <section id="news">
+    <h2>news</h2>
+    <table class="news">
+      <tr><td>Sep 2026</td><td>New preprint: <a href="https://arxiv.org/abs/2609.19437">Bayesian optimization with rich auxiliary information via LLMs</a>.</td></tr>
+      <tr><td>2026</td><td>Two papers accepted at NeurIPS 2026: adaptive offline RL for real-time plasma control, and the <a href="https://yywoai66.github.io/RL4F/">RL4F offline RL benchmark</a>.</td></tr>
+      <tr><td>Jun 2026</td><td>Joined Microsoft Office AI in Redmond as an Applied Sciences Intern, working on RL and distillation for LLM agents.</td></tr>
+      <tr><td>2026</td><td><a href="https://arxiv.org/abs/2605.05857">Offline RL for rotation profile control in tokamaks</a> accepted at L4DC 2026.</td></tr>
+      <tr><td>2025</td><td>Oral talk at APS-DPP 2025 on dynamics-model Bayesian optimization for experimental design.</td></tr>
+      <tr><td>2025</td><td><a href="https://openreview.net/attachment?id=d7v7RVXbNH&name=pdf">Multi-timescale dynamics model BO</a> accepted at ICML 2025.</td></tr>
+    </table>
+  </section>
+
+  <section id="publications">
+    <h2>publications</h2>
+    <p class="subtitle">* equal contribution. Full list on <a href="https://scholar.google.com/citations?user=6WX4uesAAAAJ">Google Scholar</a>.</p>
+
+    <div class="year">2026</div>
+    <div class="pub">
+      <div><span class="badge">NeurIPS</span><img class="thumb" src="/images/papers/adaptive-offline-rl.webp" alt="Animation of plasma inside a tokamak" loading="lazy"><div class="credit">Animation via <a href="https://scitechdaily.com/">SciTechDaily</a></div></div>
+      <div>
+        <div class="title">Dynamics-Informed Adaptive Offline RL for Real-Time Tokamak Plasma Control</div>
+        <div class="authors"><em>R. Sonker</em>, X. Hu, H. Farre, A. Rothstein, J. Chen, E. Kolemen, J. Schneider</div>
+        <div class="venue">Conference on Neural Information Processing Systems (<b>NeurIPS 2026</b>)</div>
+        <p class="abstract">Control policies trained entirely from historical data, using a learned world model of plasma dynamics. The policies infer a hidden context and adapt in real time when the dynamics shift. Validated in experiments on the DIII-D tokamak.</p>
+      </div>
+    </div>
+    <div class="pub">
+      <div><span class="badge">arXiv</span><img class="thumb" src="/images/papers/auxbo.png" alt="AuxBO optimization loop" loading="lazy"></div>
+      <div>
+        <div class="title">Bayesian Optimization with Rich Auxiliary Information via LLMs</div>
+        <div class="authors">E. F. Karagözlü*, <em>R. Sonker</em>*, T. Gupta, B. Póczos, J. Schneider</div>
+        <div class="venue">Preprint (<b>arXiv 2026</b>)</div>
+        <p class="abstract">Standard Bayesian optimization keeps only an input and a score from each experiment. We use LLMs to read everything else an experiment produces, such as training curves, expert notes, and scientists' logs, and turn it into guidance on where the optimum lies. This beats standard and LLM-based BO on benchmarks and a fusion task.</p>
+        <div class="btns"><a href="https://arxiv.org/abs/2609.19437">arXiv</a></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div><span class="badge">NeurIPS</span><img class="thumb" src="/images/papers/rl4f.png" alt="RL4F benchmark pipeline" loading="lazy"></div>
+      <div>
+        <div class="title">Offline Reinforcement Learning for Plasma Control in Nuclear Fusion: Codebase and Benchmark</div>
+        <div class="authors">Y. Fu*, H. Bao*, <em>R. Sonker</em>, X. Hu, A. Venugopal, J. Schneider, J. Chen</div>
+        <div class="venue">Conference on Neural Information Processing Systems (<b>NeurIPS 2026</b>)</div>
+        <p class="abstract">RL4F, an open benchmark for offline RL on long-horizon control with many actuators, built from real DIII-D data. It covers four profile-tracking tasks with closed-loop evaluation. Model-based offline RL performs best on most tasks, but no single method wins everywhere.</p>
+        <div class="btns"><a href="https://yywoai66.github.io/RL4F/">Project page</a><a href="https://arxiv.org/abs/2606.07550">arXiv</a><a href="https://github.com/LucasCJYSDL/Offline-RL-Kit-for-Nuclear-Fusion">Code</a><a href="https://huggingface.co/datasets/Neurips-ED-submission-685/fusion-rl-benchmark">Dataset</a></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div><span class="badge">L4DC</span><img class="thumb" src="/images/papers/l4dc-rotation.png" alt="RL policy deployed on the DIII-D tokamak" loading="lazy"></div>
+      <div>
+        <div class="title">Offline Reinforcement Learning for Rotation Profile Control in Tokamaks</div>
+        <div class="authors"><em>R. Sonker</em>, H. Farre, J. Chen, A. Rothstein, I. Char, R. Shousha, E. Kolemen, J. Schneider</div>
+        <div class="venue">Learning for Dynamics and Control Conference (<b>L4DC 2026</b>)</div>
+        <p class="abstract">Learning a controller with many inputs and outputs when no accurate simulator exists. Probabilistic dynamics models trained on historical data generate rollouts for RL training. The final policy was deployed on the DIII-D tokamak with promising results.</p>
+        <div class="btns"><a href="https://arxiv.org/abs/2605.05857">arXiv</a></div>
+      </div>
+    </div>
+
+    <div class="year">2025</div>
+    <div class="pub">
+      <div><span class="badge">ICML</span><img class="thumb" src="/images/papers/icml-mtdm-bo.png" alt="Contextual Bayesian optimization loop" loading="lazy"></div>
+      <div>
+        <div class="title">Multi-Timescale Dynamics Model Bayesian Optimization for Plasma Stabilization in Tokamaks</div>
+        <div class="authors"><em>R. Sonker</em>*, A. Capone*, A. Rothstein, H. Farre, E. Kolemen, J. Schneider</div>
+        <div class="venue">International Conference on Machine Learning (<b>ICML 2025</b>)</div>
+        <p class="abstract">Bayesian optimization that uses a learned dynamics model to make sequential decisions when data is sparse and every evaluation is expensive. Deployed at the DIII-D National Fusion Facility, where it improved instability avoidance by 117%.</p>
+        <div class="btns"><a href="https://arxiv.org/abs/2506.10287">arXiv</a><a href="https://openreview.net/attachment?id=d7v7RVXbNH&name=pdf">PDF</a></div>
+      </div>
+    </div>
+    <div class="pub">
+      <div><span class="badge">NeurIPS WS</span><img class="thumb" src="/images/papers/llm-bo.png" alt="Tokamak cross-section and heating actuator" loading="lazy"></div>
+      <div>
+        <div class="title">Large Language Model-based Bayesian Optimization for Tokamak Stabilization</div>
+        <div class="authors">T. Gupta, <em>R. Sonker</em>, E. M. Karagözlü, B. Póczos, J. Schneider</div>
+        <div class="venue"><b>NeurIPS 2025</b> Workshop on Machine Learning and the Physical Sciences</div>
+        <p class="abstract">An LLM-guided Bayesian optimization framework that draws domain priors from LLMs and folds scientists' natural-language feedback into the choice of the next experiment. This speeds up convergence in experimental design.</p>
+        <div class="btns"><a href="https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_268.pdf">PDF</a></div>
+      </div>
+    </div>
+
+    <div class="year">2022</div>
+    <div class="pub">
+      <div><span class="badge">ICLR</span><img class="thumb" src="/images/papers/hip-rssm.png" alt="HiP-RSSM graphical model" loading="lazy"></div>
+      <div>
+        <div class="title">Hidden Parameter Recurrent State Space Models for Changing Dynamics Scenarios</div>
+        <div class="authors">V. Shaj, D. Büchler, <em>R. Sonker</em>, P. Becker, G. Neumann</div>
+        <div class="venue">International Conference on Learning Representations (<b>ICLR 2022</b>)</div>
+        <p class="abstract">Recurrent state-space models that infer unobserved context on the fly when a system's dynamics change, outperforming meta-learning baselines. Validated by learning inverse dynamics for a Franka Panda robot arm and a pneumatic muscle robot.</p>
+        <div class="btns"><a href="https://arxiv.org/abs/2206.14697">arXiv</a><a href="https://openreview.net/pdf?id=ds8yZOUsea">PDF</a></div>
+      </div>
+    </div>
+
+    <div class="year">2021</div>
+    <div class="pub">
+      <div><span class="badge">RA-L</span><img class="thumb" src="/images/papers/terrain-robot.png" alt="Four-wheel robot tracking a path on uneven terrain" loading="lazy"></div>
+      <div>
+        <div class="title">Adding Terrain Height to Improve Model Learning for Path Tracking on Uneven Terrain by a Four-Wheel Robot</div>
+        <div class="authors"><em>R. Sonker</em>, A. Dutta</div>
+        <div class="venue">IEEE Robotics and Automation Letters (<b>RA-L 2021</b>)</div>
+        <p class="abstract">Adding terrain-height context to a learned dynamics model lets a four-wheel robot track paths on uneven terrain it has never seen. The model drives a model predictive controller.</p>
+        <div class="btns"><a href="https://ieeexplore.ieee.org/document/9265417">Paper</a><a href="https://github.com/rohit-sonker/Path-Tracking-via-Model-based-Learning">Code</a></div>
+      </div>
+    </div>
+
+    <div class="year">2020</div>
+    <div class="pub">
+      <div><span class="badge">CLEF</span><img class="thumb" src="/images/papers/clef.png" alt="Radiology images" loading="lazy"></div>
+      <div>
+        <div class="title">Techniques for Medical Concept Identification from Multi-Modal Images</div>
+        <div class="authors"><em>R. Sonker</em>, A. Mishra, P. Bansal, A. Pattnaik</div>
+        <div class="venue"><b>CLEF 2020</b> Working Notes (Oral)</div>
+        <p class="abstract">Multi-label prediction of medical concepts from radiology images. Placed 2nd worldwide in the ImageCLEF 2020 medical concept detection challenge.</p>
+        <div class="btns"><a href="https://ceur-ws.org/Vol-2696/paper_71.pdf">PDF</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>experience</h2>
+    <div class="exp">
+      <div class="when">Jan 2024 – present</div>
+      <div><div class="title">Ph.D. in Robotics · Carnegie Mellon University</div><p>Auton Lab, advised by Jeff Schneider. Decision-making agents for science and robotics.</p></div>
+    </div>
+    <div class="exp">
+      <div class="when">Jun – Aug 2026</div>
+      <div><div class="title">Applied Sciences Intern · Microsoft, Office AI</div><p>On-policy distillation of agentic skills from multiple teachers, and an RL gym for the Outlook agent.</p></div>
+    </div>
+    <div class="exp">
+      <div class="when">Aug 2023 – Jan 2024</div>
+      <div><div class="title">Tech Lead Manager, Machine Learning · CS DISCO</div><p>Led the India team building LLM agents for search, summarization, and tagging over legal discovery data.</p></div>
+    </div>
+    <div class="exp">
+      <div class="when">Jul 2019 – Jul 2023</div>
+      <div><div class="title">Senior Data Scientist · PwC US Advisory</div><p>LLM and ML systems for clinical trial design and regulatory documents in pharma and life sciences.</p></div>
+    </div>
+    <div class="exp">
+      <div class="when">Jul – Dec 2021</div>
+      <div><div class="title">Visiting Researcher · Karlsruhe Institute of Technology</div><p>Robot learning with Gerhard Neumann.</p></div>
+    </div>
+    <div class="exp">
+      <div class="when">2014 – 2019</div>
+      <div><div class="title">B.Tech and M.Tech, Mechanical Engineering · IIT Kanpur</div><p>Learned dynamics and model predictive control for mobile robots.</p></div>
+    </div>
+  </section>
+
+  <div class="social">
+    <a href="mailto:rsonker@andrew.cmu.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://scholar.google.com/citations?user=6WX4uesAAAAJ" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+    <a href="https://github.com/rohit-sonker" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/rohit-sonker-755a19142" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <p class="contact">The best way to reach me is by email: rsonker [at] andrew.cmu.edu</p>
+</main>
+
+<footer><div>© 2026 Rohit Sonker</div></footer>
+
+<script src="/main.js"></script>
+</body>
+</html>
